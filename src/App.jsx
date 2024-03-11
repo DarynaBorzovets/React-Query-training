@@ -3,7 +3,8 @@ function App() {
 
   return (
     <>
-     <div>Test</div>
+     <h1>Star Wars Info</h1>
+     <div className="content"></div>
     </>
   )
 }
