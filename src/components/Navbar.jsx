@@ -1,10 +1,17 @@
+import PropTypes from 'prop-types';
 
-function Navbar() {
+
+function Navbar ({setPage})  {
   return (
-    <div>
-      
-    </div>
+    <nav>
+      <button onClick={() => setPage('planets')}>Planets</button>
+      <button onClick={() => setPage('people')}>People</button>
+    </nav>
   )
 }
+
+Navbar.propTypes = {
+  setPage: PropTypes.func.isRequired,
+};
 
 export default Navbar
