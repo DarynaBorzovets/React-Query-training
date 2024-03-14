@@ -14,20 +14,8 @@ body {
     font-size: 4em;
     letter-spacing: 2px;
   }
-  button{
-    margin: 0 10px;
-    background: transparent;
-    border: 3px solid #ccc;
-    border-radius: 20px;
-    padding: 10px;
-    color: #ccc;
-    font-size: 1.2em;
-    cursor: pointer;
-  }
-  button:hover{
-    color: #fff;
-    border-color: #fff;;
-  }
+
+  
   .content{
     text-align: left;
   }
@@ -39,10 +27,7 @@ body {
     border-radius: 20px;
   }
 
-  .card p{
-    margin: 6px 0;
-    color: #999;
-  }
+
 
   .card h3{
     margin: 10px 0;

@@ -1,22 +1,14 @@
-import {useState} from 'react';
-import Navbar from "./components/Navbar";
-import People from "./components/People";
 import Planets from "./components/Planets";
 
 function App() {
 
-const [page, setPage] = useState('planets');
-
-
-
-  return (
+ return (
     <>
     <div className="App">
-    <h1>Star Wars Info</h1>
-     <Navbar setPage={setPage}/>
+    <h1>Star Wars</h1>
  
     <div className="content">
-      {page === 'planets' ? <Planets/> : <People/>}
+      <Planets/>
      </div>
     </div>
     
